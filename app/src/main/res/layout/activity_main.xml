@@ -6,50 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/pink_background"
+    android:background="@color/purple_grey"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="461dp"
-        android:layout_weight="2"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/thecheezery" />
+        android:layout_height="470dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/thecheezery" />
 
     <TextView
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to The Cheezery!"
-        android:textColor="@color/white_l"
+        android:text="@string/welcome_text"
+        android:textColor="@color/dusty_white"
         android:textSize="24sp"
         android:fontFamily="sans-serif-light"
-        android:gravity="center"
-        android:layout_marginTop="16dp" />
+        android:textAlignment="center"
+        android:layout_marginTop="25dp" />
 
     <TextView
         android:id="@+id/descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Home of the most wonderful desserts ever seen (and tasted) by the human being."
-        android:textColor="@color/white_l"
+        android:text="@string/description_text"
+        android:textColor="@color/dusty_white"
         android:textSize="15sp"
         android:fontFamily="sans-serif-light"
-        android:gravity="center"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="24dp" />
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:padding="15dp"
+        />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="219dp"
-        android:layout_height="33dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/pink"
-        android:fontFamily="sans-serif-light"
-        android:text="GET STARTED!"
-        android:textColor="@color/white_l"
-        android:textSize="13sp" />
+        android:background="@drawable/round_button"
+        android:text="@string/button_start"
+        android:textColor="@color/white"
+        />
 
 </LinearLayout>

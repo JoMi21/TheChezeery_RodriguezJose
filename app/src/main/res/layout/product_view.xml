@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="8dp">
+    
+    <ImageView
+        android:id="@+id/productoImg"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        />
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/productoNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/deep_pink"
+            android:text="" />
+        
+        <TextView
+            android:id="@+id/prouctoDesc"
+            android:layout_width="match_parent"
+            android:textColor="@color/black_grey"
+            android:textSize="8sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/productoPrecio"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:textColor="@color/price_pink"
+        android:fontFamily="sans-serif-bold"
+        android:layout_height="match_parent"
+        android:text="5$"
+        />
+</LinearLayout>

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheChezeery_RodriguezJose">
         <activity
+            android:name=".ProductosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

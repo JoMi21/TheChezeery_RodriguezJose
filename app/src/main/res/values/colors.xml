@@ -5,4 +5,14 @@
     <color name="pink">#FE2BD0</color>
     <color name="white_l">#EBEBEB</color>
     <color name="pink_background">#7C4671</color>
+    <color name="purple_grey">#644b5e</color>
+    <color name="dusty_white">#ebebeb</color>
+    <color name="very_purple">#97397d</color>
+    <color name="less_purple">#b2108d</color>
+    <color name="pinky">#c50390</color>
+    <color name="last_pink">#ef029d</color>
+    <color name="accent_pink">#fe2bd0</color>
+    <color name="deep_pink">#B60089</color>
+    <color name="black_grey">#262525</color>
+    <color name="price_pink">#9E2E81</color>
 </resources>
